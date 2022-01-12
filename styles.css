@@ -1,0 +1,24 @@
+.link{
+    float: right;
+}
+
+.text_bar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search_buttons{
+    position: absolute; 
+    top: 54%; 
+    left: 49%; 
+    transform: translate(-46%, -51%);
+}
+
+#img_sch_button{
+    position: absolute; 
+    top: 50%;
+    left:62%;
+    transform: translate(-50%, -38%);
+}
