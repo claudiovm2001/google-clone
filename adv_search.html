@@ -7,31 +7,40 @@
     <body>
         <a class="link" href="index.html">Voltar</a>
 
-        <form action="https://www.google.com/search">
+        <div id="container">
+            <img id="advc-logo" src="logo.jpg" alt="logo" width="15%">
 
-            <div>
-            todas estas palavras:
-            <input type="text" name="as_q">
-            </div>
+            <form action="https://www.google.com/search">
 
-            <div>
-            esta expressão ou frase exata:
-            <input type="text" name="as_epq">
-            </div>
+                <h5>Pesquisa avançada</h5>
 
-            <div>
-            qualquer uma destas palavras:
-            <input type="text" name="as_oq">
-            </div>
+                <div id="text-boxes">
+                    <div>
+                        todas estas palavras:
+                        <input style="position: relative; left:4.5%" type="text" name="as_q">
+                    </div>
 
-            <div>
-                nenhuma destas palavras:
-                <input type="text" name="as_eq">
-            </div>
+                    <div>
+                        expressão/frase exata:
+                        <input style="position: relative; left:0.1%" type="text" name="as_epq">
+                    </div>
 
-            <div>
-            <input type="submit" value="Pesquisa avançada">
-            </div>
-        </form>
+                    <div>
+                        qualquer destas palavras:
+                        <input type="text" name="as_oq">
+                    </div>
+
+                    <div>
+                        nenhuma destas palavras:
+                        <input style="position: relative; left:2.2%" type="text" name="as_eq">
+                    </div>
+                </div>
+                
+
+
+                <input id="adv-sch-button" type="submit" value="Pesquisa avançada">
+                
+            </form>
+        </div>
     </body>
 </html>
