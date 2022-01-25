@@ -1,6 +1,8 @@
 # google-clone
 A simple front-end to Google search.
 
+https://claudiovm2001.github.io/google-clone/
+
 A Google-inspired search page. Once the user submits the search query, the browser redirects to Google's own results pages.
 Just a simple project made to reeinforce my own knowledge within the first contacts with web development.
 
